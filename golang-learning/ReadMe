@@ -1,0 +1,10 @@
+# GoLang learning Codes
+This folder contains my practice code for learning Go basics and concurrency.
+
+## To to run the code
+To run all Go files together, open a terminal in this folder and use this command:
+
+Change to the correct folder and then:
+        On Windows : go run $(Get-ChildItem -Filter *.go | ForEach-Object { $_.Name })
+        On Linux : go run *.go
+
